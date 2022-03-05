@@ -1,4 +1,4 @@
 # Homework
-This is the code for a homework of the Robotics and Design course in Politecnico di Milano university
+### The code for the homework of the Robotics and Design course in Politecnico di Milano university
 
 The goal of this homework is to implement a program, which can transmit some data over bluetooth to another device. I came up with the idea of combining this transmission with an object detection application. In other words, I implemented an application to detect objects shown to the camera and transmit the label via bluetooth to another laptop. In this case, I considered a tripod and a pair of sunglasses as the objects our imaginary robot is looking for. I used MobileNetV2 architecture and imagenet dataset, which contains a great number of different objects, to train the model. Moreover, with the help of socket library in python, I was able to communicate between the two laptops over bluetooth.
